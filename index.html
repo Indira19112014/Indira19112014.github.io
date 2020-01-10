@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"> 
+    <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Планировки</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="title">Планировки</h1>
+        <div class="layout">
+            <div class="filter">
+                <div class="filter-rooms">
+                    <div class="title__left">
+                        Количество комнат
+                    </div>
+                    <div class="filter-rooms__links">
+                        <a class="filter-rooms__link">2</a>
+                        <a class="filter-rooms__link">3</a>
+                        <a class="filter-rooms__link">4</a>
+                        <a class="filter-rooms__link">5</a>
+                        <a class="filter-rooms__link">6</a>
+                        <a class="filter-rooms__link">8</a>
+                    </div>
+                </div>
+
+                <div class="filter-area">
+                    <div class="title title__left">
+                        Площадь
+                    </div>
+                    <ul class="filter-area__links">
+                        <li class="filter-area__link filter-area__link_active restarea">169,31 м<sup>2</sup></li>
+                        <li class="filter-area__link twolevels">226,1 м<sup>2</sup></li>
+                        <li class="filter-area__link terassa">254,1 м<sup>2</sup></li>
+                        <li class="filter-area__link  terassa">169,32 м<sup>2</sup></li>
+                        <li class="filter-area__link twolevels">168,14 м<sup>2</sup></li>
+                        <li class="filter-area__link restarea">176,64 м<sup>2</sup></li>
+                        <li class="filter-area__link terassa">182,42 м<sup>2</sup></li>
+                        <li class="filter-area__link twolevels">182,42 м<sup>2</sup></li>
+                        <li class="filter-area__link terassa">174,61 м<sup>2</sup></li>
+                        <li class="filter-area__link twolevels">175,67 м<sup>2</sup></li>
+                        <li class="filter-area__link restarea">182,42 м<sup>2</sup></li>
+                    </ul>
+                </div>
+                <div class="filter-levels">
+                    <div class="filter-levels__wrap">
+                        <a class="filter-levels__circle"  id="twolevels"></a>
+                        <div class="filter-levels__text">Двухуровневая</div></div>
+                    <div class="filter-levels__wrap">
+                        <a class="filter-levels__circle" id="restarea"></a>
+                        <div class="filter-levels__text">С участком</div></div>
+                    <div class="filter-levels__wrap">
+                        <a class="filter-levels__circle" id="terassa"></a>
+                        <div class="filter-levels__text">С террасой на крыше</div></div>
+                </div>
+                <div class="filter-mingenplan">
+                    <img src="img/kvartiry.png" alt="flats" class="filter-mingenplan__img1">
+                    <img src="img/Rectangle.png" alt="rectangle" class="filter-mingenplan__img2">
+                    <img src="img/roza.svg" alt="roza" class="filter-mingenplan__roze">
+                        <div class="filter-mingenplan__blockA">A</div>
+                        <div class="filter-mingenplan__blockB">B</div>
+                        <div class="filter-mingenplan__blockC">C</div>
+                        <div class="filter-mingenplan__blockD">D</div>
+                    </div>
+                </div>
+            <div class="plan">
+                <div class="plan-info">
+                    <div class="title title__left">Площадь</div>
+                    <div class="plan-info__descr">168,14 м<sup>2</sup></div> 
+                    <div class="title title__left">Блок</div>
+                    <div class="plan-info__descr">А</div> 
+                    <div class="title title__left">Цена</div>
+                    <div class="plan-info__descr">181 591 200 ₸</div>  
+                    <div class="plan-info__line"></div>
+                    <div class="plan-info__wrap">
+                        <div class="plan-info__advantages">
+                            <img src="icons/table.svg"  alt="table">
+                            <div class="plan-info__text"> С терассой на крыше</div>
+                        </div> 
+                        <div class="plan-info__advantages">
+                            <img src="icons/restarea.svg"  alt="table">
+                            <div class="plan-info__text"> С участком</div>
+                        </div> 
+                        <div class="plan-info__advantages">
+                            <img src="icons/stairss.svg"  alt="table">
+                            <div class="plan-info__text"> Двухуровневая</div>
+                        </div> 
+                   </div>
+                    <div class="plan-info__line"></div>
+                    <div class="plan-info__like">
+                            Понравилась квартира?
+                    </div>
+                    <button class="plan-info__btn">Заказать звонок</button>
+                </div>
+                <div class="plan__scheme plan__scheme_active">
+                    <a href="#"> <img  src="img/A.png"  alt="A"> </a> </div>
+                <div class="plan__scheme">
+                    <a href="#"> <img  src="img/B.png"  alt="A"> </a> </div>
+                <div class="plan__scheme">
+                    <a href="#"> <img  src="img/C.png" alt="A"> </a> </div>
+                </div>
+                <button class="plan__save">Скачать планировку</button>
+            </div>
+         </div>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
